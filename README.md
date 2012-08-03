@@ -1,6 +1,7 @@
 # ResqueTemplate
 
-TODO: Write a gem description
+This gem provides you with the ability to easily customize the look of 
+your resque control panel.
 
 ## Installation
 
@@ -18,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+I just started development, give me some time!
 
 ## Contributing
 
