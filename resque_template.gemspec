@@ -14,4 +14,7 @@ Gem::Specification.new do |gem|
   gem.name          = "resque_template"
   gem.require_paths = ["lib"]
   gem.version       = ResqueTemplate::VERSION
+
+  gem.add_runtime_dependency(%q<redis>, [">= 2.0.1"])
+  gem.add_runtime_dependency(%q<resque>, [">= 1.20.0"])
 end
