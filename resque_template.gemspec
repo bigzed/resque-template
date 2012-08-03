@@ -4,9 +4,9 @@ require File.expand_path('../lib/resque_template/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Steve Dierker"]
   gem.email         = ["steve.dierker@flavoursys.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{This resque plugin enables you to customize the views.}
+  gem.summary       = %q{This resque plugin enables you to customize the views.}
+  gem.homepage      = "http://github.com/bigzed/resque-template"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
